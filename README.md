@@ -1,25 +1,56 @@
-# MERN E-COMMERCE SERVER 2024
+# eCommerce Frontend   
+                                                                      
+This repository contains the frontend code for the eCommerce platform, built using React and TypeScript. The frontend provides a dynamic and responsive user interface for browsing products, managing the shopping cart, and processing orders. It also includes an admin dashboard for managing products, users, and orders. The project utilizes modern state management with Redux Toolkit and RTK Query, employs lazy loading for improved performance, and leverages custom hooks for reusable logic.
 
-Hi! My name is **Abhishek Nahar Singh**, I have created this tutorial to teach MERN Stack for free on YouTube.
+## Features                                                                          
 
-# Prerequisite
+User Features
+User Authentication: Secure user registration and login functionalities.  
 
-1.  Must have basic knowledge of **Node**, **React**, **Express**, **MongoDB** . _I have made tutorial on each technology on YouTube , make sure to check it out_. **Links are Below respectively**
-2.  TypeScript - https://youtu.be/66_bET6sI20
-3.  Node - https://youtu.be/BSO9C8Z-YV8
-4.  React In One Video - https://youtu.be/b50zSyLiCYQ
-5.  React Full Course - https://www.youtube.com/playlist?list=PLt5mNkGuWcuWSUHxSzWP74IU9U4BTVLt0
-6.  Express - https://youtu.be/teipbke8c4A\
-7.  MongoDB - https://youtu.be/AYDP1S5BbTo
-8.  Master Backend In One Video - https://youtu.be/cGAdC4A5fF4
-9.  RestApi - https://youtu.be/AhCSfuG9Jxw _(optional)_
+Product Browsing: Browse a catalog of products with advanced filtering and search options.
 
-# Install Dependencies
+Product Details: Detailed product pages with descriptions, images, and reviews.
+
+Shopping Cart: Add, update, and remove items in the shopping cart.
+Order Processing: Create orders and view detailed order history.
+
+User Profile: Manage personal information and view past orders.
+
+Responsive Design: Optimized for both desktop and mobile devices.
+
+Admin Features
+Admin Dashboard: Overview of key metrics such as sales, orders, and user activity.
+
+Product Management: Add, update, delete products, and manage inventory.
+User Management: View user profiles, manage user roles, and perform administrative actions.
+
+Order Management: View, update, and manage customer orders.
+
+Performance and Optimization
+Efficient Data Fetching: Leveraging Redux Toolkit Query for optimized data fetching and caching.
+
+Lazy Loading: Implemented lazy loading to enhance performance by loading components only when needed.
+
+Custom Hooks: Used custom hooks for encapsulating reusable logic.
+
+## Technologies Used
+
+React: A JavaScript library for building user interfaces.
+
+TypeScript: A statically typed superset of JavaScript that improves code quality and maintainability.
+
+Redux Toolkit: A powerful state management library.
+
+Redux Toolkit Query: For efficient data fetching and caching.
+
+React Router: For client-side routing and navigation.
+
+### Install Dependencies
 
 **For Dev** - `npm i && npm run dev`
 **For Product** - `npm i && npm run preview`
 
-## Env Variables
+### Env Variables
 
 Make Sure to Create a .env file in root directory and add appropriate variables in order to use the app.
 
@@ -41,14 +72,4 @@ VITE_SERVER=`Your Backend Server URl`
 
 VITE_STRIPE_KEY=`Stripe Publishable Key`
 
-_fill each filed with your info respectively_
 
-## Author
-
-**Instagram** Click [Here](https://www.instagram.com/meabhisingh) **@meAbhiSingh**
-
-**YouTube** Click [Here](https://www.youtube.com/channel/UCO7afj9AUo0zV69pqEYhcjw/) **6 Pack Programmer**
-
-**LinkedIn** Click [Here](https://in.linkedin.com/in/meabhisingh) **@meAbhiSingh**
-
-**Twitter** Click [Here](https://twitter.com/meAbhi_Singh) **@meAbhi_Singh**
